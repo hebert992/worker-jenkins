@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-WorkerJenkins-C2640D51-09F0-48BC-839D-85C20F0FAFF9</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.Cloud.PubSub.V1" Version="2.7.0" />
+        <PackageReference Include="Karambolo.Extensions.Logging.File" Version="3.2.1" />
+        <PackageReference Include="log4net.NetStandard" Version="3.0.19" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.0" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "WorkerJenkins": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/hebertramirez/Downloads/sura-infra-043dc630f3ba.json"
+      }
+    }
+  }
+}
